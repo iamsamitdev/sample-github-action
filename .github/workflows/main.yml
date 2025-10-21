@@ -74,7 +74,7 @@ jobs:
       # Step 6: Upload coverage report (optional)
       - name: 📊 Upload coverage report
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: coverage-report
           path: coverage/
